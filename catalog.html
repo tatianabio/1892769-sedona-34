@@ -47,9 +47,8 @@
       <button class="button want-to-go-button" type="button">ХОЧУ СЮДА!</button>
     </header>
     <main class="main-inner">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
-
+      <section class="catalog-hotels">
+        <h1 class="catalog-hotels-title">Гостиницы Седоны</h1>
         <!--Блок с хлебными крошками-->
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -63,7 +62,66 @@
             </a>
           </li>
         </ul>
-      </header>
+        <!--Блок с фильтрами-->
+        <h2 class="visually-hidden">Фильтры для выбора характеристик гостиниц</h2>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
+          <!--Фильтр инфраструктура-->
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="бассейн" checked>
+                  Бассейн
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="парковка" checked>
+                  Парковка
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="wi-fi">
+                  Wi-Fi
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <!--Фильтр Тип Жилья-->
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Тип Жилья:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="accommodation-type" value="hotel" checked>
+                  Гостиница
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="accommodation-type" value="motel">
+                  Мотель
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="accommodation-type" value="apartments">
+                  Апартаменты
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <!--Место для бегунка с ценами-->
+          <button class="button" type="submit">Применить</button>
+          <button class="reset-form-button" type="reset">Сбросить</button>
+        </form>
+
+      </section>
+
 
     </main>
 
