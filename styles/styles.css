@@ -157,4 +157,15 @@ body {
   text-transform: uppercase;
 }
 
+.find-hotel {
+  width: 1200px;
+  height: 417px;
+  text-align: center;
+}
 
+.find-hotel-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
