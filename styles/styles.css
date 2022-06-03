@@ -31,3 +31,20 @@ body {
   background-color: #FFFFFF;
   text-decoration: none;
 }
+
+.button-small {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  /*color: #FFFFFF; цвет шрифта в кнопках; раскомментировать, когда добавится цвет кнопок*/
+}
+
+.divider {
+  width: 1200px;
+  height: 57px;
+  background-image: url("../images/divider.svg");
+  /* цвет фона убрать, когда наложим разделитель на изображение welcome*/
+  background-color: #82B3D3;
+  background-repeat: no-repeat;
+}
