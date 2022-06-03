@@ -54,7 +54,6 @@ body {
   width: 1200px;
   height: 282px;
   text-align: center;
-
 }
 
 .main-index-title {
@@ -68,3 +67,74 @@ body {
   font-weight: 400;
   line-height: inherit;
 }
+
+.advantages-list {
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.container-real-city {
+  width: 400px;
+  height: 384px;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.accommodation {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.food {
+  width: 400px;
+  height: 384px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.souvenir {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.container-devil-bridge {
+  width: 400px;
+  height: 384px;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.small-square {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.beautiful-road {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.2);
+  color: #000000;
+}
+
+.few-tourists {
+  width: 400px;
+  height: 384px;
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.advantages-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
