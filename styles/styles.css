@@ -49,3 +49,22 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+.container-titles {
+  width: 1200px;
+  height: 282px;
+  text-align: center;
+
+}
+
+.main-index-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantages-title {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+}
