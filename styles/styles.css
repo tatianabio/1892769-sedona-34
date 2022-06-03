@@ -169,3 +169,22 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.newsletter {
+  width: 1200px;
+  height: 411px;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.newsletter-bg {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  background-image: url("../images/background-subscribe.jpg");
+}
