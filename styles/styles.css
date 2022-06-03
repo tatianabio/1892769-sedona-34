@@ -22,3 +22,12 @@ body {
   background-color: #FFFFFF;
 }
 
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: inherit;
+  background-color: #FFFFFF;
+  text-decoration: none;
+}
