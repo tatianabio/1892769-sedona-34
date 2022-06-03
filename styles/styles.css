@@ -22,6 +22,34 @@ body {
   background-color: #FFFFFF;
 }
 
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-bigger-font {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-basic {
+  background-color: #756157;
+}
+
+.button-second {
+  background-color: #82B3D3;
+}
+
+.button-selected {
+  background-color: #7DB54F;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -30,14 +58,6 @@ body {
   color: inherit;
   background-color: #FFFFFF;
   text-decoration: none;
-}
-
-.button-small {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  /*color: #FFFFFF; цвет шрифта в кнопках; раскомментировать, когда добавится цвет кнопок*/
 }
 
 .divider {
