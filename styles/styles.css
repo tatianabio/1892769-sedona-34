@@ -125,15 +125,14 @@ body {
   color: #FFFFFF;
 }
 
-.advantages-extra-item:nth-child(1),
-.advantages-extra-item:nth-child(3) {
+.advantages-extra-item:nth-child(2n-1) {
   width: 400px;
   height: 384px;
   background-color: rgba(131, 179, 211, 0.12);
   color: #333333;
 }
 
-.advantages-extra-item:nth-child(2) {
+.advantages-extra-item:nth-child(2n) {
   width: 400px;
   height: 384px;
   background-color: #FFFFFF;
