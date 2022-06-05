@@ -50,6 +50,10 @@ body {
   background-color: #7DB54F;
 }
 
+.navigation-list {
+  list-style-type: none;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -103,6 +107,11 @@ body {
   text-align: center;
   font-size: 18px;
   line-height: 21px;
+  list-style-type: none;
+}
+
+.advantages-extra-list {
+  list-style-type: none;
 }
 
 .container-real-city {
@@ -193,6 +202,10 @@ body {
   height: 120px;
 }
 
+.footer-social {
+  list-style-type: none;
+}
+
 .footer-contacts {
   text-align: center;
 }
@@ -234,6 +247,10 @@ body {
   color: inherit;
 }
 
+.breadcrumbs {
+  list-style-type: none;
+}
+
 .control-input {
   font-size: 18px;
   line-height: 21px;
@@ -254,6 +271,10 @@ body {
 .select-control-label {
   font-size: 18px;
   line-height: 21px;
+}
+
+.hotel-list {
+  list-style-type: none;
 }
 
 .hotel-card-link {
@@ -279,5 +300,9 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.pagination {
+  list-style-type: none;
 }
 
