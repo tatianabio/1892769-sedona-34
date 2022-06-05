@@ -50,6 +50,11 @@ body {
   background-color: #7DB54F;
 }
 
+.reset-button {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .img {
   max-width: 100%;
 }
