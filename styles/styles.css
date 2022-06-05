@@ -50,6 +50,10 @@ body {
   background-color: #7DB54F;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .navigation-list {
   list-style-type: none;
 }
