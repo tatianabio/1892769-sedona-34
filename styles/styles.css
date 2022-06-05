@@ -185,7 +185,7 @@ body {
   color: #FFFFFF;
   background-image: url("../images/background-subscribe.jpg");
   background-repeat: no-repeat;
-  background-size: 1200px 411px;
+  background-size: cover;
 }
 
 .page-footer {
@@ -210,7 +210,7 @@ body {
   width: 1200px;
   height: 404px;
   background-image: url("../images/background-filter.jpg");
-  background-size: 1200px 404px;
+  background-size: cover;
   background-color: #82B3D3;
   color: #FFFFFF;
   background-repeat: no-repeat;
