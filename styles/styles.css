@@ -46,6 +46,8 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
+  padding: 8px 16px;
+  border: 0;
 }
 
 .button-bigger-font {
@@ -74,7 +76,46 @@ body {
   max-width: 100%;
 }
 
+.page-header {
+  display: flex;
+  padding: 0 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-logo {
+  width: 140px;
+  height: 70px;
+  padding: 0;
+  margin-right: 30px;
+  align-self: flex-start;
+}
+
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .navigation-list {
+  display: flex;
+  width: 500px;
+  margin: 0;
+  padding: 20px 16px;
+  list-style-type: none;
+}
+
+.navigation-list .navigation-item + .navigation-item {
+  margin-left: 34px;
+}
+
+.navigation-user {
+  display: flex;
+  width: 200px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
