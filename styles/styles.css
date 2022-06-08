@@ -270,7 +270,20 @@ body {
 }
 
 .newsletter {
+  height: 412px;
+  padding: 94px 0;
+  margin: 0;
   text-align: center;
+}
+
+.newsletter h2 {
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.newsletter-desc {
+  width: 475px;
+  margin: 0 auto 48px;
 }
 
 .newsletter-bg {
