@@ -199,7 +199,6 @@ body {
   flex-wrap: wrap;
 }
 
-
 .advantages-extra-list {
   display: flex;
   margin: 0;
@@ -359,8 +358,8 @@ body {
 }
 
 .container-catalog-filter {
-  width: 1200px;
   height: 404px;
+  padding: 35px 70px 70px;
   background-image: url("../images/background-filter.jpg");
   background-size: cover;
   background-color: #82B3D3;
@@ -369,6 +368,8 @@ body {
 }
 
 .catalog-hotels-title {
+  margin: 0;
+  padding: 0;
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
@@ -376,6 +377,12 @@ body {
 
 .catalog-filter-title {
   font-weight: 700;
+}
+
+/*временный селектор, чтобы на данном этапе скрыть заголовок в фильтре
+(пока еще не работаем с классом visually-hidden)*/
+.catalog-filter h2 {
+  display: none;
 }
 
 .breadcrumbs-link {
@@ -387,7 +394,32 @@ body {
 }
 
 .breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+
+.catalog-filter-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.catalog-filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-range {
+  width: 288px;
+  height: 148px;
+  background-color: #82B3D3;
+}
+
+.button-form-wrap {
+  display: flex;
+  flex-direction: column;
 }
 
 .control-input {
