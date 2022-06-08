@@ -175,6 +175,10 @@ body {
   line-height: inherit;
 }
 
+.advantages-image-sedona, .advantages-image-bridge {
+  display: block;
+}
+
 .advantages-list {
   text-align: center;
   font-size: 18px;
