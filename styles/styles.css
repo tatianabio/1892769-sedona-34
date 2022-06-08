@@ -158,8 +158,6 @@ body {
 }
 
 .section-title {
-  width: 620px;
-  margin: 64px auto 32px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -167,12 +165,18 @@ body {
   text-align: center;
 }
 
+.advantages h1 {
+  width: 620px;
+  margin: 64px auto 32px;
+}
+
 .advantages-title {
-  width: 654px;
+  width: 800px;
   margin: 0 auto 90px;
   font-size: inherit;
   font-weight: 400;
   line-height: inherit;
+  text-align: center;
 }
 
 .advantages-image-sedona, .advantages-image-bridge {
@@ -246,14 +250,26 @@ body {
 }
 
 .find-hotel {
-  width: 1200px;
-  height: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 92px 0;
+}
+
+.find-hotel h2 {
+  width: 600px;
+  margin: 0 0 28px 0;
+  text-align: center;
+}
+
+.find-hotel-form-desc {
+  width: 700px;
+  margin: 0 0 56px 0;
   text-align: center;
 }
 
 .newsletter {
-  width: 1200px;
-  height: 411px;
   text-align: center;
 }
 
