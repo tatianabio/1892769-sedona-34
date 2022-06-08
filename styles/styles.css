@@ -184,32 +184,51 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-size: 18px;
   line-height: 21px;
   list-style-type: none;
 }
 
+.advantages-item:nth-child(1), .advantages-item:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 .advantages-extra-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
-.container-advantage-wrap {
-  width: 400px;
+.illustrated-advantage-wrap {
+  width: 33.33%;
   height: 384px;
   background-color: #82B3D3;
   color: #FFFFFF;
 }
 
+/*временный селектор, чтобы на данном этапе скрыть заголовок дополнительных преимуществ
+(пока еще не работаем с классом visually-hidden)*/
+.advantages-extra-title {
+  display: none;
+}
+
 .advantages-extra-item:nth-child(2n-1) {
-  width: 400px;
+  width: 33.33%;
   height: 384px;
   background-color: rgba(131, 179, 211, 0.12);
   color: #333333;
 }
 
 .advantages-extra-item:nth-child(2n) {
-  width: 400px;
+  width: 33.33%;
   height: 384px;
   background-color: #FFFFFF;
   color: #333333;
@@ -217,14 +236,14 @@ body {
 
 .advantages-item:nth-child(3),
 .advantages-item:nth-child(5) {
-  width: 400px;
+  width: 33.33%;
   height: 384px;
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
 }
 
 .advantages-item:nth-child(4) {
-  width: 400px;
+  width: 33.33%;
   height: 384px;
   background-color: rgba(131, 179, 211, 0.2);
   color: #000000;
