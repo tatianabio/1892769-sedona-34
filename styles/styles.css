@@ -157,20 +157,19 @@ body {
   display: block;
 }
 
-.container-titles {
-  width: 1200px;
-  height: 282px;
-  text-align: center;
-}
-
 .section-title {
+  width: 620px;
+  margin: 64px auto 32px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .advantages-title {
+  width: 654px;
+  margin: 0 auto 90px;
   font-size: inherit;
   font-weight: 400;
   line-height: inherit;
