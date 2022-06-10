@@ -323,12 +323,6 @@ body {
   align-items: center;
 }
 
-/*временный селектор, чтобы на данном этапе скрыть заголовок в футере
-(пока еще не работаем с классом visually-hidden)*/
-.page-footer h2 {
-  display: none;
-}
-
 .footer-social {
   display: flex;
   width: 142px;
