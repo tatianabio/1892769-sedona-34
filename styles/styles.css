@@ -416,6 +416,18 @@ body {
   line-height: 21px;
 }
 
+.results-control-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 55px 70px;
+  justify-content: space-between;
+}
+
+.hotels-number {
+  margin: 0;
+}
+
 .catalog-hotels-results {
   font-size: 30px;
   line-height: 36px;
