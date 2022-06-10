@@ -382,12 +382,6 @@ body {
   font-weight: 700;
 }
 
-/*временный селектор, чтобы на данном этапе скрыть заголовок в фильтре
-(пока еще не работаем с классом visually-hidden)*/
-.catalog-filter h2 {
-  display: none;
-}
-
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
@@ -424,6 +418,7 @@ body {
 }
 
 .button-form-wrap {
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
 }
