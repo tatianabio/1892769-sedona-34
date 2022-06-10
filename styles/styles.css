@@ -474,7 +474,48 @@ body {
   text-transform: uppercase;
 }
 
+.pagination-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 96px 70px 25px;
+}
+
 .pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
+.pagination-link {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.pagination-item {
+  width: 60px;
+  height: 60px;
+}
+
+.pagination-item + .pagination-item {
+  margin-left: 8px;
+}
+
+.control-hotels-number-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.select-control-label {
+  margin-right: 50px;
+}
+
+.control-hotels-number {
+  width: 160px;
+}

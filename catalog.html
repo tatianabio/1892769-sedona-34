@@ -190,36 +190,41 @@
             </li>
           </ol>
 
-          <ul class="pagination">
-            <li class="pagination-item">
-              <a class="pagination-link pagination-current button button-bigger-font button-second">1</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link button button-bigger-font button-second" href="#">2</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link button button-bigger-font button-second" href="#">3</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link button button-bigger-font button-second" href="#">4</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link button button-bigger-font button-second" href="#">
-                ...
-                <span class="visually-hidden">Следующая страница.</span>
-              </a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link button button-bigger-font button-second" href="#">10</a>
-            </li>
-          </ul>
+          <div class="pagination-wrap">
+            <ul class="pagination">
+              <li class="pagination-item">
+                <a class="pagination-link pagination-current button button-bigger-font button-second">1</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link button button-bigger-font button-second" href="#">2</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link button button-bigger-font button-second" href="#">3</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link button button-bigger-font button-second" href="#">4</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link button button-bigger-font button-second" href="#">
+                  ...
+                  <span class="visually-hidden" hidden>Следующая страница.</span>
+                </a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link button button-bigger-font button-second" href="#">10</a>
+              </li>
+            </ul>
 
-          <label class="select-control-label" for="hotels-number">Гостиниц на странице:</label>
-          <select class="select-control" name="hotels-number" id="hotels-number">
-            <option value="1">1</option>
-            <option value="4" selected>4</option>
-            <option value="9">9</option>
-          </select>
+            <div class="control-hotels-number-wrap">
+              <label class="select-control-label" for="hotels-number">Гостиниц на странице:</label>
+              <select class="select-control control-hotels-number" name="hotels-number" id="hotels-number">
+                <option value="1">1</option>
+                <option value="4" selected>4</option>
+                <option value="9">9</option>
+              </select>
+            </div>
+          </div>
+
         </section>
 
         <section class="newsletter newsletter-light">
