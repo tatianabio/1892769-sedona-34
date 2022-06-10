@@ -216,12 +216,6 @@ body {
   color: #FFFFFF;
 }
 
-/*временный селектор, чтобы на данном этапе скрыть заголовок дополнительных преимуществ
-(пока еще не работаем с классом visually-hidden)*/
-.advantages-extra-title {
-  display: none;
-}
-
 .advantages-extra-item:nth-child(2n-1) {
   width: 33.33%;
   height: 384px;
