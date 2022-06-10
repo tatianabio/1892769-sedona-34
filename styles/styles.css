@@ -446,7 +446,16 @@ body {
 }
 
 .hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 70px;
   list-style-type: none;
+}
+
+.hotel-card {
+  width: 340px;
 }
 
 .hotel-card-link {
