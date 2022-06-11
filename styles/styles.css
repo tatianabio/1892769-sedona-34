@@ -163,6 +163,7 @@ body {
 }
 
 .section-title {
+  margin: 0 auto 30px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -170,13 +171,15 @@ body {
   text-align: center;
 }
 
+.advantages {
+  padding-top: 64px;
+}
+
 .advantages h1 {
   width: 620px;
-  margin: 64px auto 32px;
 }
 
 .advantages-title {
-  width: 800px;
   margin: 0 auto 90px;
   font-size: inherit;
   font-weight: 400;
@@ -274,12 +277,6 @@ body {
   padding: 92px 0;
 }
 
-.find-hotel h2 {
-  width: 600px;
-  margin: 0 0 28px 0;
-  text-align: center;
-}
-
 .find-hotel-form-desc {
   width: 700px;
   margin: 0 0 56px 0;
@@ -287,15 +284,10 @@ body {
 }
 
 .newsletter {
-  height: 412px;
+  min-height: 412px;
   padding: 94px 0;
   margin: 0;
   text-align: center;
-}
-
-.newsletter h2 {
-  margin-top: 0;
-  margin-bottom: 28px;
 }
 
 .newsletter-desc {
@@ -351,7 +343,7 @@ body {
 }
 
 .container-catalog-filter {
-  height: 404px;
+  min-height: 404px;
   padding: 35px 70px 70px;
   background-image: url("../images/background-filter.jpg");
   background-size: cover;
