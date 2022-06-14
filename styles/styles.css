@@ -252,8 +252,7 @@ body {
   color: #333333;
 }
 
-.advantages-item:nth-child(3),
-.advantages-item:nth-child(5) {
+.advantages-item:nth-child(2n+3) {
   width: 400px;
   min-height: 384px;
   padding: 104px 85px;
@@ -261,7 +260,7 @@ body {
   color: #000000;
 }
 
-.advantages-item:nth-child(4) {
+.advantages-item:nth-child(2n+4) {
   width: 400px;
   min-height: 384px;
   padding: 104px 85px;
@@ -269,15 +268,11 @@ body {
   color: #000000;
 }
 
-.advantages-item:nth-child(3) p {
+.advantages-item:nth-child(2n+3) p {
   color: #333333;
 }
 
-.advantages-item:nth-child(4) p {
-  color: #333333;
-}
-
-.advantages-item:nth-child(5) p {
+.advantages-item:nth-child(2n+4) p {
   color: #333333;
 }
 
