@@ -222,6 +222,7 @@ body {
 
 .advantages-extra-list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -229,7 +230,7 @@ body {
 
 .illustrated-advantage-wrap {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   padding: 92px 85px;
   background-color: #82B3D3;
   color: #FFFFFF;
@@ -237,16 +238,16 @@ body {
 
 .advantages-extra-item:nth-child(2n-1) {
   width: 400px;
-  height: 384px;
-  padding: 180px 85px;
+  min-height: 384px;
+  padding: 180px 85px 80px;
   background-color: rgba(131, 179, 211, 0.12);
   color: #333333;
 }
 
 .advantages-extra-item:nth-child(2n) {
   width: 400px;
-  height: 384px;
-  padding: 180px 85px;
+  min-height: 384px;
+  padding: 180px 85px 80px;
   background-color: #FFFFFF;
   color: #333333;
 }
@@ -254,7 +255,7 @@ body {
 .advantages-item:nth-child(3),
 .advantages-item:nth-child(5) {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   padding: 104px 85px;
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
@@ -262,7 +263,7 @@ body {
 
 .advantages-item:nth-child(4) {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   padding: 104px 85px;
   background-color: rgba(131, 179, 211, 0.2);
   color: #000000;
