@@ -97,7 +97,6 @@ body {
 }
 
 .page-header {
-  height: 66px;
   display: flex;
   padding: 0 70px;
   justify-content: space-between;
@@ -107,7 +106,6 @@ body {
 .navigation-logo {
   padding: 0;
   align-self: flex-start;
-  z-index: 1;
 }
 
 .page-header-logo {
@@ -126,24 +124,15 @@ body {
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 20px 16px;
-  list-style-type: none;
-}
-
-.navigation-list .navigation-item + .navigation-item {
-  margin-left: 34px;
-}
-
-.navigation-user {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 480px;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 17px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -151,6 +140,16 @@ body {
   color: inherit;
   background-color: #FFFFFF;
   text-decoration: none;
+}
+
+.navigation-user {
+  justify-content: flex-end;
+  max-width: 200px;
+}
+
+.navigation-user .navigation-link {
+  min-width: 42px;
+  min-height: 66px;
 }
 
 .main-container {
