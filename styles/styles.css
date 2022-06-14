@@ -371,7 +371,7 @@ body {
 }
 
 .catalog-hotels-title {
-  margin: 0;
+  margin: 0 0 10px;
   padding: 0;
   font-size: 60px;
   line-height: 78px;
@@ -383,6 +383,10 @@ body {
 }
 
 .breadcrumbs-link {
+  display: block;
+  min-height: 21px;
+  min-width: 16px;
+  margin-right: 24px;
   font-size: 16px;
   line-height: 21px;
   font-style: normal;
