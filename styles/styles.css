@@ -334,9 +334,17 @@ body {
 
 .footer-social {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.footer-social-link {
+  display: block;
+  min-width: 48px;
+  min-height: 40px;
 }
 
 .footer-contacts-phone {
