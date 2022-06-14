@@ -188,10 +188,11 @@ body {
 }
 
 .advantages h1 {
-  width: 620px;
+  max-width: 700px;
 }
 
 .advantages-title {
+  max-width: 1000px;
   margin: 0 auto 90px;
   font-size: inherit;
   font-weight: 400;
