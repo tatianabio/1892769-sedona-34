@@ -535,16 +535,18 @@ body {
 
 .pagination-link {
   display: block;
+  width: 60px;
   padding-bottom: 12px;
   padding-top: 12px;
 }
 
-.pagination-item {
-  width: 60px;
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
 }
 
-.pagination-item + .pagination-item {
-  margin-left: 8px;
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
 }
 
 .control-hotels-number-wrap {
