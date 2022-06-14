@@ -312,7 +312,7 @@ body {
 }
 
 .newsletter-desc {
-  width: 475px;
+  max-width: 475px;
   margin: 0 auto 48px;
 }
 
