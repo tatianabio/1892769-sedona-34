@@ -299,7 +299,7 @@ body {
 }
 
 .find-hotel-form-desc {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 0 56px 0;
   text-align: center;
 }
