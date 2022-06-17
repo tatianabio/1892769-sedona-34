@@ -520,7 +520,7 @@ body {
 }
 
 .hotel-card-description {
-  flex-grow: 1;
+  margin-top: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px 20px;
