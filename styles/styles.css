@@ -105,6 +105,8 @@ body {
 
 .navigation-logo {
   align-self: flex-start;
+  margin-bottom: -5px;
+  z-index: 1;
 }
 
 .page-header-logo {
