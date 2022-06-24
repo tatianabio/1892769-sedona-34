@@ -153,6 +153,43 @@ body {
 .navigation-user .navigation-link {
   min-width: 42px;
   min-height: 66px;
+  position: relative;
+}
+
+.navigation-user .navigation-item:nth-child(1) .navigation-link {
+  background-image: url("../images/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(2) .navigation-link {
+  background-image: url("../images/icons/favorite.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(2) .navigation-link::before {
+  position: absolute;
+  top: 15px;
+  right: -2px;
+  content: "";
+  background-color: #7DB54F;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.count {
+  position: absolute;
+  top: 18px;
+  right: 3px;
+  z-index: 2;
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #7DB54F;
 }
 
 .main-container {
