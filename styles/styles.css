@@ -95,6 +95,19 @@ body {
   line-height: 20px;
 }
 
+.button-want-to-sedona {
+  min-width: 160px;
+}
+
+.button-find-hotel {
+  min-width: 574px;
+}
+
+.button-subscribe {
+  min-width: 200px;
+  border-radius: 0;
+}
+
 .img {
   max-width: 100%;
 }
