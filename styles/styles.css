@@ -135,6 +135,7 @@ body {
 
 .navigation-link {
   display: block;
+  position: relative;
   padding: 20px 17px;
   font-weight: 700;
   font-size: 20px;
@@ -145,6 +146,16 @@ body {
   text-decoration: none;
 }
 
+.navigation-link-current::before {
+  position: absolute;
+  bottom: -1px;
+  right: 17px;
+  left: 17px;
+  content: "";
+  background-color: #756257;
+  height: 2px;
+}
+
 .navigation-user {
   justify-content: flex-end;
   max-width: 200px;
@@ -153,7 +164,6 @@ body {
 .navigation-user .navigation-link {
   min-width: 42px;
   min-height: 66px;
-  position: relative;
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
