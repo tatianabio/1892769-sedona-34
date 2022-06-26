@@ -82,6 +82,10 @@ body {
   background-color: #756157;
 }
 
+.button-basic:hover {
+  background-color: #615048;
+}
+
 .button-second {
   background-color: #82B3D3;
 }
