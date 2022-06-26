@@ -180,19 +180,19 @@ body {
   min-height: 66px;
 }
 
-.navigation-user .navigation-item:nth-child(1) .navigation-link {
+.navigation-search {
   background-image: url("../images/icons/search.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link {
+.navigation-favorite {
   background-image: url("../images/icons/favorite.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.navigation-user .navigation-item:nth-child(2) .navigation-link::before {
+.navigation-favorite::before {
   position: absolute;
   top: 15px;
   right: -2px;
@@ -400,7 +400,7 @@ body {
   justify-content: center;
 }
 
-.field {
+.field-subscribe {
   min-width: 600px;
   border: none;
 }
