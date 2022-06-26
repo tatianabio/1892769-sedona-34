@@ -487,6 +487,23 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
+.footer-contacts-logo {
+  color: #000000;
+}
+
+.footer-contacts-logo:hover {
+  color: #756157;
+}
+
+.footer-contacts-logo:focus {
+  color: #756157;
+  outline: none;
+}
+
+.footer-contacts-logo:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .html-academy-logo {
   display: block;
 }
