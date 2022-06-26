@@ -101,6 +101,8 @@ body {
 
 .button-find-hotel {
   min-width: 574px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .button-subscribe {
@@ -332,7 +334,7 @@ body {
 .advantages-item:nth-child(2n+3) {
   width: 400px;
   min-height: 384px;
-  padding: 104px 85px;
+  padding: 102px 85px;
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
 }
@@ -340,7 +342,7 @@ body {
 .advantages-item:nth-child(2n+4) {
   width: 400px;
   min-height: 384px;
-  padding: 104px 85px;
+  padding: 102px 85px;
   background-color: rgba(131, 179, 211, 0.2);
   color: #000000;
 }
@@ -398,6 +400,7 @@ body {
 .newsletter-form {
   display: flex;
   justify-content: center;
+  min-height: 60px;
 }
 
 .field-subscribe {
