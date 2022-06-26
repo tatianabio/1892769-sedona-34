@@ -170,6 +170,7 @@ body {
   content: "";
   background-color: #756257;
   height: 2px;
+  z-index: 1;
 }
 
 .navigation-user {
