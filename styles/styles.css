@@ -109,6 +109,10 @@ body {
   border-radius: 4px;
 }
 
+.button:disabled {
+  background-color: var(--button-disabled);
+}
+
 .button-bigger-font {
   font-size: 20px;
   line-height: 36px;
@@ -686,7 +690,7 @@ body {
   height: 9px;
   position: absolute;
   right: -14px;
-  top: 7px;
+  top: 6px;
   cursor: none;
 }
 
