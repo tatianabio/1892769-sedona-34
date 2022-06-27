@@ -122,14 +122,14 @@ body {
   background-color: var(--button-basic-hover);
 }
 
-.button-basic:focus-visible {
-  background-color: var(--button-basic-hover);
-  outline: none;
-}
-
 .button-basic:active {
   background-color: var(--button-basic);
   color: var(--text-background-small);
+}
+
+.button-basic:focus-visible {
+  background-color: var(--button-basic-hover);
+  outline: none;
 }
 
 .button-second {
@@ -140,14 +140,14 @@ body {
   background-color: var(--button-secondary-hover);
 }
 
-.button-second:focus-visible {
-  background-color: var(--button-secondary-hover);
-  outline: none;
-}
-
 .button-second:active {
   background-color: var(--button-secondary);
   color: var(--text-background-small);
+}
+
+.button-second:focus-visible {
+  background-color: var(--button-secondary-hover);
+  outline: none;
 }
 
 .button-selected {
@@ -158,14 +158,14 @@ body {
   background-color: var(--button-selected-hover);
 }
 
-.button-selected:focus-visible {
-  background-color: var(--button-selected-hover);
-  outline: none;
-}
-
 .button-selected:active {
   background-color: var(--button-selected);
   color: var(--text-background-small);
+}
+
+.button-selected:focus-visible {
+  background-color: var(--button-selected-hover);
+  outline: none;
 }
 
 .button-main-action {
@@ -204,13 +204,13 @@ body {
   color: var(--text-background-hover);
 }
 
+.reset-button:active {
+  color: var(--text-background-active);
+}
+
 .reset-button:focus-visible {
   color: var(--text-background-hover);
   outline: none;
-}
-
-.reset-button:active {
-  color: var(--text-background-active);
 }
 
 .img {
@@ -560,13 +560,13 @@ body {
   color: var(--icon-secondary-hover);
 }
 
+.footer-social-link:active {
+  color: var(--icon-secondary-active);
+}
+
 .footer-social-link:focus-visible {
   color: var(--icon-secondary-hover);
   outline: none;
-}
-
-.footer-social-link:active {
-  color: var(--icon-secondary-active);
 }
 
 .footer-contacts-phone {
@@ -582,13 +582,13 @@ body {
   color: var(--text-hover);
 }
 
+.footer-contacts-phone:active {
+  color: var(--text-active);
+}
+
 .footer-contacts-phone:focus-visible {
   color: var(--text-hover);
   outline: none;
-}
-
-.footer-contacts-phone:active {
-  color: var(--text-active);
 }
 
 .footer-contacts-logo {
@@ -599,13 +599,13 @@ body {
   color: var(--icon-hover);
 }
 
+.footer-contacts-logo:active {
+  color: var(--icon-active);
+}
+
 .footer-contacts-logo:focus-visible {
   color: var(--icon-hover);
   outline: none;
-}
-
-.footer-contacts-logo:active {
-  color: var(--icon-active);
 }
 
 .html-academy-logo {
@@ -647,6 +647,19 @@ body {
   text-decoration: none;
   color: inherit;
   position: relative;
+}
+
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover {
+  color: var(--text-background-hover);
+}
+
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:active {
+  color: var(--text-background-active);
+}
+
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:focus-visible {
+  color: var(--text-background-default);
+  outline: none;
 }
 
 .breadcrumbs {
