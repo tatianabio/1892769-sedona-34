@@ -20,6 +20,39 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-basic: #000000;
+  --text-hover: #756157;
+  --text-active: #7561574C;
+  --text-secondary: #333333;
+  --text-background-default: #FFFFFF;
+  --text-background-hover: #FFFFFF99;
+  --text-background-active: #FFFFFF4C;
+  --text-background-small: #FFFFFF4C;
+  --text-error: #FF5757;
+  --button-basic: #756157;
+  --button-basic-hover: #615048;
+  --button-secondary: #82B3D3;
+  --button-secondary-hover: #68A2CA;
+  --button-selected: #7DB54F;
+  --button-selected-hover: #6C9E42;
+  --button-disabled: #E5E5E5;
+  --background-basic-2: #FFFFFF;
+  --background-basic-3: #82B3D3;
+  --background-secondary-1: #83B3D31E;
+  --background-secondary-2: #83B3D333;
+  --icon-basic: #000000;
+  --icon-hover: var(--text-hover);
+  --icon-active: var(--text-active);
+  --icon-secondary: #83B3D3;
+  --icon-secondary-hover: #68A2CA;
+  --icon-secondary-active: #68A2CA4C;
+  --icon-text: #7DB54F;
+  --form-input: #3F5E72;
+  --form-element-1: #E5E5E5;
+  --form-element-2: #F2F2F2;
+}
+
 html {
   height: 100%;
 }
