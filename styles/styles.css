@@ -665,7 +665,7 @@ body {
   margin: auto;
 }
 
-.breadcrumbs-link::after {
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link::after {
   content: "";
   background-image: url("../images/breadcrubs-arrow.svg");
   background-repeat: no-repeat;
