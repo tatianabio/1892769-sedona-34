@@ -122,7 +122,7 @@ body {
   background-color: var(--button-basic-hover);
 }
 
-.button-basic:focus {
+.button-basic:focus-visible {
   background-color: var(--button-basic-hover);
   outline: none;
 }
@@ -140,7 +140,7 @@ body {
   background-color: var(--button-secondary-hover);
 }
 
-.button-second:focus {
+.button-second:focus-visible {
   background-color: var(--button-secondary-hover);
   outline: none;
 }
@@ -158,7 +158,7 @@ body {
   background-color: var(--button-selected-hover);
 }
 
-.button-selected:focus {
+.button-selected:focus-visible {
   background-color: var(--button-selected-hover);
   outline: none;
 }
@@ -204,7 +204,7 @@ body {
   color: var(--text-background-hover);
 }
 
-.reset-button:focus {
+.reset-button:focus-visible {
   color: var(--text-background-hover);
   outline: none;
 }
@@ -560,7 +560,7 @@ body {
   color: var(--icon-secondary-hover);
 }
 
-.footer-social-link:focus {
+.footer-social-link:focus-visible {
   color: var(--icon-secondary-hover);
   outline: none;
 }
@@ -582,7 +582,7 @@ body {
   color: var(--text-hover);
 }
 
-.footer-contacts-phone:focus {
+.footer-contacts-phone:focus-visible {
   color: var(--text-hover);
   outline: none;
 }
@@ -599,7 +599,7 @@ body {
   color: var(--icon-hover);
 }
 
-.footer-contacts-logo:focus {
+.footer-contacts-logo:focus-visible {
   color: var(--icon-hover);
   outline: none;
 }
