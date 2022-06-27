@@ -860,8 +860,7 @@ body {
 }
 
 .pagination-link:hover {
-  outline: 1px solid var(--button-secondary);
-  outline-offset: -1px;
+  box-shadow: inset 0 0 0 1px var(--button-secondary);
 }
 
 .pagination-link:active {
@@ -870,19 +869,21 @@ body {
 }
 
 .pagination-link:focus-visible {
-  outline: 1px solid var(--button-secondary);
-  outline-offset: -1px;
+  box-shadow: inset 0 0 0 1px var(--button-secondary);
 }
 
 .pagination-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.pagination-current, .pagination-current:hover, .pagination-current:active, .pagination-current:focus-visible {
+.pagination-current,
+.pagination-current:hover,
+.pagination-current:active,
+.pagination-current:focus-visible {
   color: var(--text-basic);
   background-color: var(--form-element-2);
   cursor: default;
-  outline: none;
+  box-shadow: none;
 }
 
 .control-hotels-number-wrap {
