@@ -633,16 +633,20 @@ body {
   font-weight: 700;
 }
 
+.breadcrumbs-item:not(:last-child) {
+  margin-right: 24px;
+}
+
 .breadcrumbs-link {
   display: block;
   min-height: 21px;
   min-width: 16px;
-  margin-right: 24px;
   font-size: 16px;
   line-height: 21px;
   font-style: normal;
   text-decoration: none;
   color: inherit;
+  position: relative;
 }
 
 .breadcrumbs {
@@ -650,6 +654,27 @@ body {
   margin: 0 0 40px;
   padding: 0;
   list-style-type: none;
+}
+
+.breadcrumbs-icon-main-page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.breadcrumbs-link::after {
+  content: "";
+  background-image: url("../images/breadcrubs-arrow.svg");
+  background-repeat: no-repeat;
+  width: 6px;
+  height: 9px;
+  position: absolute;
+  right: -14px;
+  top: 7px;
+  cursor: none;
 }
 
 .catalog-filter-form {
