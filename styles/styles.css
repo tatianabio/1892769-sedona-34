@@ -185,9 +185,9 @@ body {
 
 .button-subscribe {
   min-width: 200px;
-  border-radius: 0;
   padding-bottom: 12px;
   padding-top: 12px;
+  border-radius: 0 10px 10px 0;
 }
 
 .button-apply-filter {
@@ -516,7 +516,9 @@ body {
 
 .field-subscribe {
   min-width: 600px;
-  border: none;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  background-color: var(--form-element-2);
 }
 
 .newsletter-bg {
