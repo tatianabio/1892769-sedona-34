@@ -132,7 +132,7 @@ body {
   color: var(--text-background-small);
 }
 
-.button-basic:focus-visible {
+.button-basic:focus {
   background-color: var(--button-basic-hover);
   outline: none;
 }
@@ -150,7 +150,7 @@ body {
   color: var(--text-background-small);
 }
 
-.button-second:focus-visible {
+.button-second:focus {
   background-color: var(--button-secondary-hover);
   outline: none;
 }
@@ -168,7 +168,7 @@ body {
   color: var(--text-background-small);
 }
 
-.button-selected:focus-visible {
+.button-selected:focus {
   background-color: var(--button-selected-hover);
   outline: none;
 }
@@ -213,7 +213,7 @@ body {
   color: var(--text-background-active);
 }
 
-.reset-button:focus-visible {
+.reset-button:focus {
   color: var(--text-background-hover);
   outline: none;
 }
@@ -571,7 +571,7 @@ body {
   color: var(--icon-secondary-active);
 }
 
-.footer-social-link:focus-visible {
+.footer-social-link:focus {
   color: var(--icon-secondary-hover);
   outline: none;
 }
@@ -593,7 +593,7 @@ body {
   color: var(--text-active);
 }
 
-.footer-contacts-phone:focus-visible {
+.footer-contacts-phone:focus {
   color: var(--text-hover);
   outline: none;
 }
@@ -610,7 +610,7 @@ body {
   color: var(--icon-active);
 }
 
-.footer-contacts-logo:focus-visible {
+.footer-contacts-logo:focus {
   color: var(--icon-hover);
   outline: none;
 }
@@ -664,7 +664,7 @@ body {
   color: var(--text-background-active);
 }
 
-.breadcrumbs-item:not(:last-child) .breadcrumbs-link:focus-visible {
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:focus {
   color: var(--text-background-default);
   outline: none;
 }
@@ -763,7 +763,7 @@ body {
   box-shadow: inset 0 0 0 2px var(--icon-basic);
 }
 
-.results-view-link:focus-visible {
+.results-view-link:focus {
   box-shadow: inset 0 0 0 2px var(--icon-secondary-hover);
   outline: none;
 }
@@ -771,7 +771,7 @@ body {
 .results-view-current,
 .results-view-current:hover,
 .results-view-current:active,
-.results-view-current:focus-visible {
+.results-view-current:focus {
   box-shadow: inset 0 0 0 2px var(--icon-basic);
   outline: none;
   cursor: default;
@@ -914,7 +914,7 @@ body {
   color: var(--text-background-small);
 }
 
-.pagination-link:focus-visible {
+.pagination-link:focus {
   box-shadow: inset 0 0 0 1px var(--button-secondary);
 }
 
@@ -925,7 +925,7 @@ body {
 .pagination-current,
 .pagination-current:hover,
 .pagination-current:active,
-.pagination-current:focus-visible {
+.pagination-current:focus {
   color: var(--text-basic);
   background-color: var(--form-element-2);
   cursor: default;
