@@ -511,7 +511,6 @@ body {
 .newsletter-form {
   display: flex;
   justify-content: center;
-  min-height: 60px;
 }
 
 .field-subscribe {
