@@ -859,14 +859,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 16px 20px;
   align-items: center;
-}
-
-.hotel-type {
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.hotel-card-price {
   font-size: 18px;
   line-height: 21px;
 }
