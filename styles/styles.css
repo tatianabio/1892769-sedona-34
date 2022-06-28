@@ -513,11 +513,14 @@ body {
   justify-content: center;
 }
 
+.field {
+  border: 0;
+  background-color: var(--form-element-2);
+}
+
 .field-subscribe {
   min-width: 600px;
-  border: 0;
   border-radius: 10px 0 0 10px;
-  background-color: var(--form-element-2);
 }
 
 .newsletter-bg {
