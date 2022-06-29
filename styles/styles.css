@@ -775,6 +775,9 @@ body {
 .price-range {
   width: 288px;
   min-height: 148px;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .range-scale {
@@ -782,6 +785,7 @@ body {
   height: 4px;
   background-color: var(--form-range-scale);
   margin-top: 32px;
+  margin-left: 10px;
 }
 
 .range-bar {
@@ -814,6 +818,19 @@ body {
   box-shadow: 0 7px 15px var(--form-dark-shadow),
   0 0 0 2px var(--form-special);
 }
+
+.toggle-min {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 0;
+}
+
+.toggle-max {
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+}
+
 
 .button-form-wrap {
   align-self: flex-end;
