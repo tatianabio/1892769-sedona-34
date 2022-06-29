@@ -38,6 +38,8 @@
   --button-selected-hover: #6C9E42;
   --button-disabled: #E5E5E5;
   --background-basic: #F2F2F2;
+  /*Ниже в названиях переменных использованы числа и цвета,поскольку они используются дизайнером в названиях
+  соответствующих цветов в макете. Это сделано для того, чтобы не было разночтений в названиях цветов в макете и в проекте*/
   --background-basic-2: #FFFFFF;
   --background-basic-3: #82B3D3;
   --background-secondary-1: #83B3D31E;
@@ -52,6 +54,11 @@
   --form-input: #3F5E72;
   --form-element-1: #E5E5E5;
   --form-element-2: #F2F2F2;
+  --form-basic-light: #F2F2F2;
+  --form-basic-gray: #E6E6E6;
+  --form-basic-white: #FFFFFF;
+  --form-basic-black: #000000;
+  --form-special: #83B3D3;
   --main-shadow: #00000033;
   --special-warm-light: #756257;
   --basic-line: #E6E6E6;
@@ -490,7 +497,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding: 92px 0;
+  padding: 92px 70px;
 }
 
 .find-hotel-form-desc {
@@ -500,7 +507,7 @@ body {
 }
 
 .newsletter {
-  padding: 94px 0;
+  padding: 94px 70px;
   margin: 0;
   text-align: center;
 }
@@ -516,12 +523,51 @@ body {
 }
 
 .field {
-  border: 0;
-  background-color: var(--form-element-2);
+  font: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--text-basic);
+  margin: 0;
+  border: none;
+  padding: 20px 22px;
+  background-color: var(--form-basic-light);
+  border-radius: 4px;
 }
 
+.field::placeholder {
+  opacity: 0.6;
+}
+
+.field:hover {
+  background-color: var(--form-basic-gray);
+}
+
+.field:focus {
+  background-color: var(--form-basic-gray);
+  box-shadow: 0 0 0 3px var(--form-special);
+  outline: none;
+}
+
+.field:active {
+  color: var(--text-basic);
+  background-color: var(--form-basic-white);
+  box-shadow: inset 0 0 0 2px var(--form-basic-black);
+}
+
+.field:disabled,
+.field:disabled:hover {
+  background-color: var(--form-basic-white);
+  box-shadow: inset 0 0 0 2px var(--form-special);
+}
+
+/*Добавить состояние ошибки (появление сообщения об ошибке) для поля формы ниже*/
+/*.field:invalid,*/
+/*.field:invalid:hover {*/
+/*  */
+/*}*/
+
 .field-subscribe {
-  min-width: 600px;
+  width: 600px;
   border-radius: 10px 0 0 10px;
 }
 
