@@ -779,9 +779,58 @@ body {
 .price-range {
   width: 288px;
   min-height: 148px;
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 0;
   border: none;
+}
+
+.range-inputs-wrap {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.range-input {
+  border: none;
+  box-shadow: 0 0 0 2px var(--form-basic-white);
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+  width: 140px;
+  padding: 14px 36px 14px 18px;
+}
+
+.input-min-price {
+  border-radius: 4px 0 0 4px;
+}
+
+.input-max-price {
+  margin-left: 2px;
+  border-radius: 0 4px 4px 0;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.catalog-filter-label {
+  position: absolute;
+  color: var(--form-range-scale);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.label-min-price {
+  left: 112px;
+}
+
+.label-max-price {
+  right: 17px;
 }
 
 .range-scale {
