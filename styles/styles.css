@@ -57,8 +57,11 @@
   --form-basic-light: #F2F2F2;
   --form-basic-gray: #E6E6E6;
   --form-basic-white: #FFFFFF;
+  --form-light-shadow: #0000003F;
+  --form-dark-shadow: #00000066;
   --form-basic-black: #000000;
   --form-special: #83B3D3;
+  --form-range-scale: #FFFFFF4D;
   --main-shadow: #00000033;
   --special-warm-light: #756257;
   --basic-line: #E6E6E6;
@@ -217,8 +220,9 @@ body {
 }
 
 .reset-button:focus {
-  color: var(--text-background-hover);
-  outline: none;
+  color: var(--text-background-default);
+  box-shadow: inset 0 0 0 3px var(--form-special);
+  border-radius: 4px;
 }
 
 .reset-button:active {
@@ -770,7 +774,45 @@ body {
 
 .price-range {
   width: 288px;
-  height: 148px;
+  min-height: 148px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: var(--form-range-scale);
+  margin-top: 32px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: var(--form-basic-white);
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--form-basic-white);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  box-shadow: 0 4px 10px var(--form-light-shadow);
+}
+
+.range-toggle:focus {
+  box-shadow: 0 4px 10px var(--form-light-shadow),
+  0 0 0 3px var(--form-special);
+  outline: none;
+}
+
+.range-toggle:active {
+  box-shadow: 0 7px 15px var(--form-dark-shadow),
+  0 0 0 2px var(--form-special);
 }
 
 .button-form-wrap {
