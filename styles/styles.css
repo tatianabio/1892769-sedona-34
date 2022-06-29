@@ -697,10 +697,6 @@ body {
   font-weight: 700;
 }
 
-.catalog-filter-title {
-  font-weight: 700;
-}
-
 .breadcrumbs-item:not(:last-child) {
   margin-right: 24px;
 }
@@ -772,6 +768,14 @@ body {
   flex-direction: column;
 }
 
+.catalog-filter-title {
+  padding: 0;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+
 .price-range {
   width: 288px;
   min-height: 148px;
@@ -830,7 +834,6 @@ body {
   transform: translate(50%, -50%);
   right: 0;
 }
-
 
 .button-form-wrap {
   align-self: flex-end;
