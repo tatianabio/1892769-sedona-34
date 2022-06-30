@@ -791,28 +791,36 @@ body {
 }
 
 .range-input {
-  border: none;
-  box-shadow: 0 0 0 2px var(--form-basic-white);
+  border: 2px solid var(--form-basic-white);
   background-color: transparent;
   font: inherit;
   color: inherit;
-  width: 140px;
-  padding: 14px 36px 14px 18px;
+  width: 144px;
+  padding: 14px 38px 14px 18px;
 }
 
 .range-input:hover {
-  box-shadow: 0 0 0 2px var(--text-background-hover);
+  border: 2px solid var(--text-background-hover);
+}
+
+.input-min-price:hover ~ .input-max-price {
+  border-left-color: transparent;
+}
+
+.input-min-price:not(:hover) {
+  border-right-color: transparent;
 }
 
 .range-input:focus {
-  box-shadow: 0 0 0 2px var(--form-basic-white),
-  0 0 0 5px var(--form-focus-price),
+  border: 2px solid var(--form-basic-white);
+  box-shadow: 0 0 0 3px var(--form-focus-price),
   inset 0 0 0 3px var(--form-focus-price);
   outline: none;
+  z-index: 1;
 }
 
 .range-input:active {
-  box-shadow: 0 0 0 2px var(--form-basic-white);
+  border: 2px solid var(--form-basic-white);
   background-color: var(--special-warm-light);
 }
 
@@ -821,7 +829,7 @@ body {
 }
 
 .input-max-price {
-  margin-left: 2px;
+  margin-left: -2px;
   border-radius: 0 4px 4px 0;
 }
 
