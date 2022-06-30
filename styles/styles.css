@@ -758,11 +758,9 @@ body {
 }
 
 .catalog-filter-group {
-  display: flex;
-  width: 160px;
   margin: 0;
   padding: 0;
-  flex-direction: column;
+  border: none;
 }
 
 .catalog-filter-title {
@@ -773,12 +771,46 @@ body {
   margin-bottom: 32px;
 }
 
+.catalog-filter-infrastructure,
+.catalog-filter-accommodation {
+  display: flex;
+  min-width: 160px;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--form-basic-white);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  border-radius: 4px;
+}
+
+.control:hover .control-mark {
+  background-color: var(--text-background-hover);
+}
+
+.control + .control {
+  margin-top: 15px;
+}
+
 .price-range {
   width: 288px;
   min-height: 148px;
-  margin: 0 0 10px 0;
-  padding: 0;
-  border: none;
+  margin-bottom: 10px;
+  margin-left: auto;
 }
 
 .range-inputs-wrap {
@@ -796,7 +828,7 @@ body {
   font: inherit;
   color: inherit;
   width: 144px;
-  padding: 14px 38px 14px 18px;
+  padding: 12px 38px 12px 18px;
 }
 
 .range-input:hover {
@@ -858,7 +890,7 @@ body {
   position: relative;
   height: 4px;
   background-color: var(--form-range-scale);
-  margin-top: 32px;
+  margin-top: 30px;
   margin-left: 10px;
 }
 
@@ -909,6 +941,7 @@ body {
   align-self: flex-end;
   display: flex;
   flex-direction: column;
+  margin-left: 70px;
 }
 
 .catalog-hotels {
