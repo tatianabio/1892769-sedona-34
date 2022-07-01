@@ -695,7 +695,7 @@ body {
   margin: auto;
   padding: 62px 70px 70px;
   background-color: var(--background-basic-2);
-  box-shadow: 0px 25px 50px var(--modal-shadow);
+  box-shadow: 0 25px 50px var(--modal-shadow);
   border-radius: 30px;
 }
 
