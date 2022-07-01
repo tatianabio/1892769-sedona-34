@@ -559,7 +559,7 @@ body {
   outline: none;
 }
 
-.field:not(:placeholder-shown) {
+.field-subscribe:not(:placeholder-shown) {
   color: var(--text-basic);
   background-color: var(--form-basic-white);
   box-shadow: inset 0 0 0 2px var(--form-basic-black);
@@ -744,8 +744,20 @@ body {
 }
 
 .modal-title {
-  margin: 0;
+  margin: 0 0 63px 0;
   text-align: left;
+}
+
+.search-hotel-form {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 13px;
+  grid-template-rows: repeat(7, auto);
+}
+
+.button-modal-find {
+  grid-area: 7 / 1 / -1 / -1;
 }
 
 .container-catalog-filter {
