@@ -536,7 +536,7 @@ body {
 .field {
   font: inherit;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 20px;
   color: var(--text-basic);
   margin: 0;
   border: none;
@@ -574,11 +574,6 @@ body {
 .field-subscribe {
   border-radius: 10px 0 0 10px;
   flex-grow: 1;
-}
-
-.newsletter-form:focus-within {
-  border-radius: 10px;
-  box-shadow: 0 0 0 3px var(--form-special);
 }
 
 .newsletter-bg {
@@ -688,6 +683,8 @@ body {
   height: 100%;
   background-color: var(--modal-overlay);
   z-index: 2;
+  overflow: auto;
+  padding: 20px;
 }
 
 .modal {
@@ -1080,7 +1077,7 @@ body {
 }
 
 .catalog-hotels {
-  padding: 60px 70px 25px;
+  padding: 55px 70px 25px;
 }
 
 .control-input {
@@ -1202,12 +1199,6 @@ body {
   text-transform: uppercase;
 }
 
-
-.select-control-label {
-  font-size: 18px;
-  line-height: 21px;
-}
-
 .hotel-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1324,6 +1315,8 @@ body {
 
 .select-control-label {
   margin-right: 50px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .control-hotels-number {
