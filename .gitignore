@@ -9,3 +9,6 @@
 node_modules/
 npm-debug.*
 Thumbs.db
+yarn.lock
+gruntfile.js
+package.json
