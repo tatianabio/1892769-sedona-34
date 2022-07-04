@@ -227,7 +227,7 @@
 
               <label class="search-form-label" for="adults-number">Взрослые:</label>
               <div class="search-form-counter-wrap">
-                <button class="change-guests-number decrease-guests-number" type="button">
+                <button class="change-guests-number-button" type="button">
                   <span class="visually-hidden">Уменьшить количество гостей на один.</span>
                   <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="1"
                        viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg">
@@ -236,7 +236,7 @@
                 </button>
                 <input class="field field-guests-number" type="text" placeholder="2" name="adults-number"
                        id="adults-number" value="2">
-                <button class="change-guests-number increase-guests-number" type="button">
+                <button class="change-guests-number-button" type="button">
                   <span class="visually-hidden">Увеличить количество гостей на один.</span>
                   <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="13"
                        viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
@@ -247,15 +247,22 @@
 
               <label class="search-form-label search-form-label-children" for="children-number">Дети:</label>
               <div class="search-form-counter-wrap">
-                <button class="change-guests-number decrease-guests-number" type="button">
+                <button class="change-guests-number-button" type="button">
                   <span class="visually-hidden">Уменьшить количество гостей на один.</span>
+                  <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="1"
+                       viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor"/>
+                  </svg>
                 </button>
                 <input class="field field-guests-number" type="text" placeholder="0" name="children-number"
                        id="children-number" value="1">
-                <button class="change-guests-number increase-guests-number" type="button">
+                <button class="change-guests-number-button" type="button">
                   <span class="visually-hidden">Увеличить количество гостей на один.</span>
+                  <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="13"
+                       viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="currentColor"/>
+                  </svg>
                 </button>
-
               </div>
 
               <button class="button button-bigger-font button-second button-modal-find" type="submit">
