@@ -907,17 +907,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.control:hover .control-mark {
+.control-input:hover + .control-mark {
   background-color: var(--text-background-hover);
 }
 
-.control:focus-within .control-mark {
+.control-input:focus + .control-mark {
   background-color: var(--text-background-hover);
   outline: none;
   box-shadow: 0 0 0 3px var(--form-special);
 }
 
-.control:active .control-mark {
+.control-input:active + .control-mark {
   background-color: var(--form-range-scale);
 }
 
@@ -925,12 +925,12 @@ body {
   background-color: var(--form-basic-white);
 }
 
-.control:focus-within .control-input[type="radio"] + .control-mark {
+.control-input[type="radio"]:focus + .control-mark {
   background-color: var(--form-basic-white);
   box-shadow: inset 0 0 0 3px var(--form-special);
 }
 
-.control:focus-within .control-input[type="radio"]:checked + .control-mark {
+.control-input[type="radio"]:checked:focus + .control-mark {
   box-shadow: 0 0 0 3px var(--form-special);
 }
 
