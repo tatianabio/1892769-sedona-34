@@ -748,7 +748,7 @@ body {
 
 .search-form {
   display: grid;
-  grid-template-columns: 135px auto 114px auto;
+  grid-template-columns: 135px 133px 114px 133px;
   grid-template-rows: repeat(7, minmax(40px, auto));
   column-gap: 20px;
   align-items: center;
