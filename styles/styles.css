@@ -876,35 +876,20 @@ body {
   transform: translateY(-50%);
   left: 0;
   border-radius: 4px;
-}
-
-.control-input[type="checkbox"]:checked + .control-mark::after {
-  width: 13px;
-  height: 10px;
-  background-image: url("../images/icons/check-mark.svg");
   background-repeat: no-repeat;
   background-position: center;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+
+.control-input[type="checkbox"]:checked + .control-mark {
+  background-image: url("../images/icons/check-mark.svg");
 }
 
 .control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]:checked + .control-mark::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: var(--form-input);
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.control-input[type="radio"]:checked + .control-mark {
+  background-image: url("../images/icons/radio-round.svg");
 }
 
 .control-input:hover + .control-mark {
