@@ -937,6 +937,18 @@ body {
   box-shadow: 0px 15px 30px var(--form-modal);
 }
 
+.tooltip-text::after {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 9px;
+  background-image: url("../images/icons/tooltip-angle.svg");
+  background-repeat: no-repeat;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
