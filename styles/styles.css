@@ -688,6 +688,10 @@ body {
   padding: 20px;
 }
 
+.modal-container-close {
+  display: none;
+}
+
 .modal {
   position: relative;
   margin: auto;
