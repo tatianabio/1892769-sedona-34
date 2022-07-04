@@ -63,6 +63,7 @@
   --form-special: #83B3D3;
   --form-range-scale: #FFFFFF4D;
   --form-focus-price: #81B3D2;
+  --form-modal: #0000004D;
   --main-shadow: #00000033;
   --special-warm-light: #756257;
   --basic-line: #E6E6E6;
@@ -745,16 +746,135 @@ body {
   text-align: left;
 }
 
-.search-hotel-form {
+.search-form {
   display: grid;
+  grid-template-columns: 25% auto 1fr auto;
+  grid-template-rows: repeat(7, minmax(40px, auto));
+  column-gap: 20px;
+  align-items: center;
+}
+
+.search-form-label {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.field-dates {
+  padding: 15px 20px;
   width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 13px;
-  grid-template-rows: repeat(7, auto);
+}
+
+.field-dates::placeholder {
+  font-weight: 700;
+}
+
+.field-dates:active {
+  color: var(--text-basic);
+  background-color: var(--form-basic-white);
+  box-shadow: inset 0 0 0 2px var(--form-basic-black);
+  font-weight: 700;
+}
+
+.field-dates-wrap {
+  grid-column: 2 / -1;
+  position: relative;
+}
+
+.field-dates-calendar {
+  position: absolute;
+  right: 0;
+  width: 55px;
+  height: 50px;
+  border-radius: 0 4px 4px 0;
+  background-image: url("../images/icons/calendar.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.field-dates-calendar:hover {
+  background-color: var(--form-basic-gray);
+}
+
+.field-dates-calendar:focus {
+  background-color: var(--form-basic-gray);
+  box-shadow: 0 0 0 3px var(--form-special);
+  outline: none;
+}
+
+.hint-dates {
+  font-size: 16px;
+  line-height: 21px;
+  grid-column: 2 / -1;
+}
+
+.hint-dates-error {
+  display: none;
+  color: var(--text-error);
+}
+
+.hint-dates-success {
+  display: none;
+  color: var(--text-secondary);
+}
+
+.hint-visible {
+  display: block;
+}
+
+.search-form-label-children {
+  margin-left: 36px;
+}
+
+.search-form-counter-wrap {
+  max-width: 133px;
+  display: flex;
+  background-color: var(--form-basic-light);
+  border-radius: 4px;
+}
+
+.change-guests-number {
+  width: 33.33%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  color: var(--form-modal);
+}
+
+.change-number-icon {
+  
+  height: 13px;
+  margin: auto;
+}
+
+.field-guests-number {
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+  z-index: 1;
+}
+
+.field-guests-number:active {
+  color: var(--text-basic);
+  background-color: var(--form-basic-white);
+  box-shadow: inset 0 0 0 2px var(--form-basic-black);
 }
 
 .button-modal-find {
-  grid-area: 7 / 1 / -1 / -1;
+  padding: 12px 26px;
+  border-radius: 10px;
+  grid-area: -1 / 1 / -2 / -1;
+}
+
+.button-modal-find:focus {
+  box-shadow: 0 0 0 3px var(--special-warm-light);
+}
+
+.button-modal-find:active {
+  background-color: var(--button-secondary-hover);
 }
 
 .container-catalog-filter {
