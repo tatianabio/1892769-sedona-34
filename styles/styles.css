@@ -748,6 +748,7 @@ body {
 .modal-title {
   margin: 0 0 63px 0;
   text-align: left;
+  padding-right: 100px;
 }
 
 .search-form {
