@@ -240,6 +240,7 @@ body {
 
 .page-header {
   display: flex;
+  flex-wrap: wrap;
   padding: 0 70px;
   justify-content: space-between;
   align-items: center;
@@ -257,6 +258,7 @@ body {
 
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   flex-grow: 1;
   margin-right: 20px;
   margin-left: 30px;
@@ -587,6 +589,7 @@ body {
 
 .page-footer {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 45px 70px 35px;
   justify-content: space-between;
@@ -1052,6 +1055,7 @@ body {
 
 .breadcrumbs {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 0 40px;
   padding: 0;
   list-style-type: none;
@@ -1080,6 +1084,7 @@ body {
 
 .catalog-filter-form {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -1321,13 +1326,14 @@ body {
 
 .results-control-wrap {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0 0 56px 0;
   justify-content: space-between;
 }
 
 .total-hotels-number {
-  margin: 0;
+  margin: 0 30px 0 0;
   max-width: 450px;
 }
 
@@ -1372,6 +1378,7 @@ body {
 
 .results-view-wrap {
   display: flex;
+  flex-wrap: wrap;
   margin-left: 78px;
 }
 
@@ -1494,6 +1501,7 @@ body {
 
 .pagination-wrap {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 66px;
@@ -1503,6 +1511,7 @@ body {
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -1544,6 +1553,7 @@ body {
 
 .control-hotels-number-wrap {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
 }
