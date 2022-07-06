@@ -1046,7 +1046,7 @@ body {
 }
 
 .breadcrumbs-item:not(:last-child) .breadcrumbs-link:focus {
-  color: var(--text-background-default);
+  color: var(--text-background-hover);
   outline: none;
 }
 
