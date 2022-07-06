@@ -15,24 +15,24 @@
 
         <nav class="navigation">
           <ul class="navigation-list">
-            <li>
+            <li class="navigation-item">
               <a class="navigation-link" href="index.html">Главная</a>
             </li>
-            <li>
+            <li class="navigation-item">
               <a class="navigation-link" href="#">О Седоне</a>
             </li>
-            <li>
+            <li class="navigation-item">
               <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
 
           <ul class="navigation-list navigation-user">
-            <li>
+            <li class="navigation-item">
               <a class="navigation-link navigation-search" href="#">
                 <span class="visually-hidden">Поиск.</span>
               </a>
             </li>
-            <li>
+            <li class="navigation-item">
               <a class="navigation-link navigation-favorite" href="#">
                 <span class="visually-hidden">Избранное.</span>
                 <span class="count">12</span>
@@ -46,7 +46,7 @@
 
       <main class="main-container">
         <div class="container-catalog-filter">
-          <header>
+          <header class="catalog-filter-header">
             <h1 class="catalog-hotels-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
@@ -66,7 +66,7 @@
               </li>
             </ul>
           </header>
-          <section>
+          <section class="catalog-filter">
             <h2 class="visually-hidden">Фильтры для выбора характеристик гостиниц.</h2>
             <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="catalog-filter-group catalog-filter-infrastructure">
@@ -117,7 +117,7 @@
                   <input class="range-input input-max-price" type="number" id="max-price" value="9000" name="max-price"
                          min="0">
                 </div>
-                <div>
+                <div class="range-scale-wrapper">
                   <div class="range-scale">
                     <div class="range-bar" style="left: 0; width: 218px">
                       <button class="range-toggle toggle-min" type="button">
