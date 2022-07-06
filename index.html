@@ -187,7 +187,7 @@
         </a>
       </footer>
 
-      <div class="modal-container modal-container-close">
+      <div class="modal-container">
         <div class="modal modal-search-hotel">
           <button class="modal-close-button" type="button">
             <svg class="modal-close-cross" aria-hidden="true" focusable="false" width="13" height="13"
@@ -200,75 +200,87 @@
           <section class="modal-content">
             <h2 class="section-title modal-title">Поиск гостиницы в Седоне</h2>
             <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-              <label class="search-form-label" for="check-in-dates">Дата заезда:</label>
-              <div class="field-dates-wrap">
-                <input class="field field-dates" type="text" placeholder="Укажите дату" name="check-in-dates"
-                       id="check-in-dates"
-                       value="27 апреля 2020">
-                <button class="field-dates-calendar" type="button">
-                  <span class="visually-hidden">Показать календарь.</span>
-                </button>
-              </div>
-              <span class="hint-dates hint-dates-error hint-visible">Мы не можем отправить вас в прошлое.</span>
-              <span class="hint-dates hint-dates-success">На эти даты есть свободные номера. Пока есть.</span>
 
-              <label class="search-form-label" for="check-out-dates">Дата выезда:</label>
-              <div class="field-dates-wrap">
-                <input class="field field-dates" type="text" placeholder="Укажите дату" name="check-out-dates"
-                       id="check-out-dates"
-                       value="1 сентября 2021">
-                <button class="field-dates-calendar" type="button">
-                  <span class="visually-hidden">Показать календарь.</span>
-                </button>
-              </div>
-              <span class="hint-dates hint-dates-error">Мы не можем отправить вас в прошлое.</span>
-              <span
-                class="hint-dates hint-dates-success hint-visible">На эти даты есть свободные номера. Пока есть.</span>
-
-              <label class="search-form-label" for="adults-number">Взрослые:</label>
-              <div class="search-form-counter-wrap">
-                <button class="change-guests-number-button" type="button">
-                  <span class="visually-hidden">Уменьшить на один.</span>
-                  <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="1"
-                       viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor"/>
-                  </svg>
-                </button>
-                <input class="field field-guests-number" type="number" placeholder="2" id="adults-number" value="2"
-                       name="adults-number" min="0" max="999">
-                <button class="change-guests-number-button" type="button">
-                  <span class="visually-hidden">Увеличить на один.</span>
-                  <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="13"
-                       viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="currentColor"/>
-                  </svg>
-                </button>
+              <div class="form-dates-wrap">
+                <label class="search-form-label" for="check-in-dates">Дата заезда:</label>
+                <div class="field-dates-wrap">
+                  <input class="field field-dates" type="text" placeholder="Укажите дату" name="check-in-dates"
+                         id="check-in-dates"
+                         value="27 апреля 2020">
+                  <button class="field-dates-calendar" type="button">
+                    <span class="visually-hidden">Показать календарь.</span>
+                  </button>
+                  <span class="hint-dates hint-dates-error hint-visible">Мы не можем отправить вас в прошлое.</span>
+                  <span class="hint-dates hint-dates-success">На эти даты есть свободные номера. Пока есть.</span>
+                </div>
               </div>
 
-              <span class="search-form-label search-form-label-children search-form-label-icon">
+              <div class="form-dates-wrap">
+                <label class="search-form-label" for="check-out-dates">Дата выезда:</label>
+                <div class="field-dates-wrap">
+                  <input class="field field-dates" type="text" placeholder="Укажите дату" name="check-out-dates"
+                         id="check-out-dates"
+                         value="1 сентября 2021">
+                  <button class="field-dates-calendar" type="button">
+                    <span class="visually-hidden">Показать календарь.</span>
+                  </button>
+                  <span class="hint-dates hint-dates-error">Мы не можем отправить вас в прошлое.</span>
+                  <span
+                    class="hint-dates hint-dates-success hint-visible">На эти даты есть свободные номера. Пока есть.</span>
+                </div>
+              </div>
+
+              <div class="form-guests-wrap">
+                <div class="form-adults-wrap">
+                  <label class="search-form-label" for="adults-number">Взрослые:</label>
+                  <div class="form-counter-wrap">
+                    <button class="change-guests-number-button" type="button">
+                      <span class="visually-hidden">Уменьшить на один.</span>
+                      <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="1"
+                           viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor"/>
+                      </svg>
+                    </button>
+                    <input class="field field-guests-number" type="number" placeholder="2" id="adults-number" value="2"
+                           name="adults-number" min="0" max="999">
+                    <button class="change-guests-number-button" type="button">
+                      <span class="visually-hidden">Увеличить на один.</span>
+                      <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="13"
+                           viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="currentColor"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="form-children-wrap">
+                <span class="search-form-label search-form-label-children search-form-label-icon">
                 <label class="search-form-label" for="children-number">Дети:</label>
                 <span class="tooltip">
                   <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label"></button>
                   <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с&nbsp;вами, возраст которых от&nbsp;6&nbsp;до&nbsp;18&nbsp;лет. Дети до&nbsp;6&nbsp;лет размещаются бесплатно.</span>
                 </span>
               </span>
-              <div class="search-form-counter-wrap">
-                <button class="change-guests-number-button" type="button">
-                  <span class="visually-hidden">Уменьшить на один.</span>
-                  <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="1"
-                       viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor"/>
-                  </svg>
-                </button>
-                <input class="field field-guests-number" type="number" placeholder="0" id="children-number" value="1"
-                       name="children-number" min="0" max="999">
-                <button class="change-guests-number-button" type="button">
-                  <span class="visually-hidden">Увеличить на один.</span>
-                  <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="13"
-                       viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="currentColor"/>
-                  </svg>
-                </button>
+                  <div class="form-counter-wrap">
+                    <button class="change-guests-number-button" type="button">
+                      <span class="visually-hidden">Уменьшить на один.</span>
+                      <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="1"
+                           viewBox="0 0 13 1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor"/>
+                      </svg>
+                    </button>
+                    <input class="field field-guests-number" type="number" placeholder="0" id="children-number"
+                           value="1"
+                           name="children-number" min="0" max="999">
+                    <button class="change-guests-number-button" type="button">
+                      <span class="visually-hidden">Увеличить на один.</span>
+                      <svg class="change-number-icon" aria-hidden="true" focusable="false" width="13" height="13"
+                           viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="currentColor"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
               </div>
 
               <button class="button button-bigger-font button-second button-modal-find" type="submit">

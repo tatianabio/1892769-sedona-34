@@ -751,23 +751,24 @@ body {
   padding-right: 100px;
 }
 
-.search-form {
-  display: grid;
-  grid-template-columns: 135px 133px 114px 133px;
-  grid-template-rows: repeat(7, minmax(40px, auto));
-  column-gap: 20px;
+.form-dates-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .search-form-label {
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
+  margin-right: 20px;
 }
 
 .field-dates {
   padding: 15px 20px;
-  width: 100%;
+  width: 420px;
 }
 
 .field-dates::placeholder {
@@ -782,7 +783,6 @@ body {
 }
 
 .field-dates-wrap {
-  grid-column: 2 / -1;
   position: relative;
 }
 
@@ -811,9 +811,13 @@ body {
 }
 
 .hint-dates {
+  max-width: 420px;
   font-size: 16px;
   line-height: 21px;
-  grid-column: 2 / -1;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  z-index: 1;
 }
 
 .hint-dates-error {
@@ -830,12 +834,29 @@ body {
   display: block;
 }
 
-.search-form-label-children {
-  margin-left: 36px;
-  position: relative;
+.form-guests-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
-.search-form-counter-wrap {
+.form-adults-wrap,
+.form-children-wrap {
+  display: flex;
+  width: 287px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-form-label-children {
+  margin-left: 56px;
+  position: relative;
+  margin-right: 0;
+}
+
+.form-counter-wrap {
   max-width: 133px;
   display: flex;
   background-color: var(--form-basic-light);
@@ -900,7 +921,7 @@ body {
   width: 25px;
   height: 25px;
   margin-top: 2px;
-  margin-left: 7px;
+  margin-left: -13px;
 }
 
 .search-form-label-icon {
@@ -949,6 +970,7 @@ body {
   padding: 15px 18px 18px 22px;
   border-radius: 10px;
   box-shadow: 0 15px 30px var(--form-modal);
+  z-index: 2;
 }
 
 .tooltip-text::after {
@@ -971,7 +993,7 @@ body {
 .button-modal-find {
   padding: 12px 26px;
   border-radius: 10px;
-  grid-area: -1 / 1 / -2 / -1;
+  min-width: 575px;
 }
 
 .button-modal-find:focus {
