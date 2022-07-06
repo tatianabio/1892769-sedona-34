@@ -350,13 +350,13 @@ body {
   flex-grow: 1;
 }
 
-.welcome-wrap {
+.welcome-wrapper {
   background-color: var(--background-basic-3);
   color: var(--text-background-default);
   position: relative;
 }
 
-.welcome-wrap::after {
+.welcome-wrapper::after {
   content: "";
   background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
@@ -425,7 +425,7 @@ body {
   list-style-type: none;
 }
 
-.illustrated-advantage-wrap {
+.illustrated-advantage-wrapper {
   width: 400px;
   min-height: 384px;
   padding: 92px 85px;
@@ -755,7 +755,7 @@ body {
   padding-right: 100px;
 }
 
-.form-dates-wrap {
+.form-dates-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -786,7 +786,7 @@ body {
   font-weight: 700;
 }
 
-.field-dates-wrap {
+.field-dates-wrapper {
   position: relative;
 }
 
@@ -838,15 +838,15 @@ body {
   display: block;
 }
 
-.form-guests-wrap {
+.form-guests-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
-.form-adults-wrap,
-.form-children-wrap {
+.form-adults-wrapper,
+.form-children-wrapper {
   display: flex;
   width: 287px;
   flex-wrap: wrap;
@@ -860,7 +860,7 @@ body {
   margin-right: 0;
 }
 
-.form-counter-wrap {
+.form-counter-wrapper {
   max-width: 133px;
   display: flex;
   background-color: var(--form-basic-light);
@@ -1183,7 +1183,7 @@ body {
   margin-left: auto;
 }
 
-.range-inputs-wrap {
+.range-inputs-wrapper {
   display: flex;
   justify-content: center;
   position: relative;
@@ -1309,7 +1309,7 @@ body {
   right: 0;
 }
 
-.button-form-wrap {
+.button-form-wrapper {
   align-self: flex-end;
   display: flex;
   flex-direction: column;
@@ -1325,7 +1325,7 @@ body {
   line-height: 21px;
 }
 
-.results-control-wrap {
+.results-control-wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1377,7 +1377,7 @@ body {
   margin-left: auto;
 }
 
-.results-view-wrap {
+.results-view-wrapper {
   display: flex;
   flex-wrap: wrap;
   margin-left: 78px;
@@ -1500,7 +1500,7 @@ body {
   padding: 8px 22px;
 }
 
-.pagination-wrap {
+.pagination-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1552,7 +1552,7 @@ body {
   box-shadow: none;
 }
 
-.control-hotels-number-wrap {
+.control-hotels-number-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
