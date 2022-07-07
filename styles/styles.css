@@ -1747,6 +1747,7 @@ body {
   flex-wrap: wrap;
   margin: 0 60px 0 0;
   padding: 0;
+  max-width: 600px;
   list-style-type: none;
 }
 
