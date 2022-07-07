@@ -228,10 +228,6 @@ body {
   opacity: 0.8;
 }
 
-.catalog-page .navigation-logo:focus {
-  outline: 2px solid #3F5E72;
-}
-
 .catalog-page .navigation-logo:active {
   opacity: 0.5;
 }
@@ -285,12 +281,6 @@ body {
 
 .navigation-link:hover {
   color: #756157;
-}
-
-.navigation-link:focus {
-  -webkit-box-shadow: inset 0 0 0 2px #83B3D3;
-  box-shadow: inset 0 0 0 2px #83B3D3;
-  outline: none;
 }
 
 .navigation-link:active {
@@ -1671,12 +1661,6 @@ body {
 
 .hotel-card-link:hover {
   opacity: 0.7;
-}
-
-.hotel-card-link:focus {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 3px #82B3D3;
-  box-shadow: 0 0 0 3px #82B3D3;
 }
 
 .hotel-card-link:active {
