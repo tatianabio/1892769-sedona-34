@@ -1562,6 +1562,7 @@ body {
 
 .hotels-sorting {
   width: 290px;
+  margin-right: 78px;
   margin-left: auto;
 }
 
@@ -1571,7 +1572,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: 78px;
 }
 
 .results-view-link {
