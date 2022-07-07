@@ -120,6 +120,7 @@ body {
 
 .button-selected {
   background-color: #7DB54F;
+  width: 140px;
 }
 
 .button-selected:hover {
@@ -1461,6 +1462,7 @@ body {
 }
 
 .hotel-rating {
+  width: 140px;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
