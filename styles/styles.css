@@ -412,7 +412,7 @@ body {
 .advantages-extra-item {
   width: 400px;
   min-height: 384px;
-  padding: 180px 85px 80px;
+  padding: 182px 85px 80px;
   color: #333333;
   background-repeat: no-repeat;
   background-position: center 72px;
@@ -502,7 +502,7 @@ body {
 
 .newsletter-desc {
   max-width: 475px;
-  margin: 0 auto 48px;
+  margin: 0 auto 46px;
 }
 
 .newsletter-form {
@@ -745,7 +745,7 @@ body {
 }
 
 .field-dates {
-  padding: 15px 20px;
+  padding: 14px 20px;
   width: 420px;
 }
 
@@ -843,12 +843,13 @@ body {
 
 .change-guests-number-button {
   width: 44px;
-  height: 51px;
+  height: 50px;
   border: none;
   cursor: pointer;
   color: #0000004D;
   border-radius: 4px;
   background-color: transparent;
+  position: relative;
 }
 
 .change-guests-number-button:hover {
@@ -870,12 +871,25 @@ body {
 
 .change-number-icon {
   display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin: auto;
+}
+
+.minus-icon {
+  left: 9px;
+}
+
+.plus-icon {
+  right: 5px;
 }
 
 .field-guests-number {
   width: 45px;
-  padding: 15px 4px;
+  padding: 14px 4px;
   text-align: center;
   z-index: 1;
   -moz-appearance: textfield;
