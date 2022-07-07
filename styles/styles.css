@@ -152,16 +152,19 @@ body {
 
 .button-main-action {
   min-width: 160px;
+  max-width: 250px;
 }
 
 .button-find-hotel {
   min-width: 574px;
+  max-width: 700px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
 .button-subscribe {
   min-width: 200px;
+  max-width: 400px;
   padding-bottom: 12px;
   padding-top: 12px;
   border-radius: 0 10px 10px 0;
@@ -692,6 +695,10 @@ body {
 
 .footer-social-link:active {
   color: #68A2CA4C;
+}
+
+.footer-phone-wrapper {
+  max-width: 600px;
 }
 
 .footer-contacts-phone {
@@ -1742,6 +1749,7 @@ body {
 .pagination-link {
   display: block;
   min-width: 60px;
+  max-width: 200px;
   padding-bottom: 12px;
   padding-top: 12px;
 }
