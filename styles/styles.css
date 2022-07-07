@@ -857,12 +857,14 @@ body {
 }
 
 .change-guests-number-button:focus {
-  color: #000000;
-  background-image: url("../images/icons/border-for-change-number-button.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: transparent;
   outline: none;
+}
+
+.change-guests-number-button:focus > svg {
+  color: #000000;
+  box-shadow: 0 0 0 3px #82B3D3;
+  outline: none;
+  border-radius: 4px;
 }
 
 .change-guests-number-button:active {
