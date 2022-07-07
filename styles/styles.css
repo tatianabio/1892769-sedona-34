@@ -422,14 +422,6 @@ body {
   list-style-type: none;
 }
 
-.advantages-item:nth-child(1), .advantages-item:nth-child(2) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
 .advantages-extra-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -501,6 +493,15 @@ body {
 
 .advantages-item:nth-child(2n+4) p {
   color: #333333;
+}
+
+.illustrated-advantages-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1200px;
 }
 
 .advantages-item-title {
