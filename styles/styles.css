@@ -1572,6 +1572,8 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  max-width: 300px;
+  justify-content: flex-end;
 }
 
 .results-view-link {
