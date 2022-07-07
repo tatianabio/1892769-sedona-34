@@ -487,21 +487,22 @@ body {
   color: #000000;
 }
 
-.advantages-item:nth-child(2n+3) p {
+.advantages-item:nth-child(2n+3):not(.illustrated-advantages-item) p {
   color: #333333;
 }
 
-.advantages-item:nth-child(2n+4) p {
+.advantages-item:nth-child(2n+4):not(.illustrated-advantages-item) p {
   color: #333333;
 }
 
-.illustrated-advantages-item {
+.advantages-item.illustrated-advantages-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 1200px;
+  padding: 0;
 }
 
 .advantages-item-title {
