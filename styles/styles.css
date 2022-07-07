@@ -514,7 +514,7 @@ body {
 .field {
   font: inherit;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 21px;
   color: #000000;
   margin: 0;
   border: none;
@@ -794,7 +794,7 @@ body {
   line-height: 21px;
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 58px;
   z-index: 1;
 }
 
@@ -843,7 +843,7 @@ body {
 
 .change-guests-number-button {
   width: 44px;
-  height: 50px;
+  height: 51px;
   border: none;
   cursor: pointer;
   color: #0000004D;
