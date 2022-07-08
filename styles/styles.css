@@ -405,7 +405,7 @@ body {
   color: #333333;
   background-repeat: no-repeat;
   background-position: center 72px;
-  background-size: 84px 84px;
+  background-size: 84px;
 }
 
 .advantages-extra-item:nth-child(2n-1) {
@@ -473,7 +473,6 @@ body {
 
 .advantages-extra-item-desc {
   margin: 0;
-  width: 230px;
 }
 
 .find-hotel {
