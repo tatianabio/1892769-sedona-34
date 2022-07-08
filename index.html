@@ -140,7 +140,7 @@
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="newsletter-email">Email.</label>
             <input class="field field-subscribe" type="email" placeholder="Ваш e-mail" name="newsletter-email"
-                   id="newsletter-email">
+                   id="newsletter-email" required>
             <button class="button button-bigger-font button-second button-subscribe" type="submit">
               <span>Подписаться</span>
             </button>
@@ -216,8 +216,7 @@
                 <label class="search-form-label" for="check-in-dates">Дата заезда:</label>
                 <div class="field-dates-wrapper">
                   <input class="field field-dates" type="text" placeholder="Укажите дату" name="check-in-dates"
-                         id="check-in-dates"
-                         value="27 апреля 2020">
+                         id="check-in-dates" value="27 апреля 2020" required>
                   <button class="field-dates-calendar" type="button">
                     <span class="visually-hidden">Показать календарь.</span>
                   </button>
@@ -230,8 +229,7 @@
                 <label class="search-form-label" for="check-out-dates">Дата выезда:</label>
                 <div class="field-dates-wrapper">
                   <input class="field field-dates" type="text" placeholder="Укажите дату" name="check-out-dates"
-                         id="check-out-dates"
-                         value="1 сентября 2021">
+                         id="check-out-dates" value="1 сентября 2021" required>
                   <button class="field-dates-calendar" type="button">
                     <span class="visually-hidden">Показать календарь.</span>
                   </button>
@@ -255,7 +253,7 @@
                       </svg>
                     </button>
                     <input class="field field-guests-number" type="number" placeholder="2" id="adults-number" value="2"
-                           name="adults-number" min="0" max="999">
+                           name="adults-number" min="0" max="999" required>
                     <button class="change-guests-number-button" type="button">
                       <span class="visually-hidden">Увеличить на один.</span>
                       <svg class="change-number-icon plus-icon" aria-hidden="true" focusable="false" width="20"
