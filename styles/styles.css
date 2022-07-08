@@ -871,7 +871,7 @@ body {
   outline: none;
 }
 
-.change-guests-number-button:focus > svg {
+.change-guests-number-button:focus svg {
   color: #000000;
   box-shadow: 0 0 0 3px #82B3D3;
   outline: none;
