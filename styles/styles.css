@@ -685,6 +685,7 @@ body {
   position: relative;
   margin: auto;
   padding: 62px 70px 70px;
+  min-width: max-content;
   background-color: #FFFFFF;
   box-shadow: 0 25px 50px #00000026;
   border-radius: 30px;
