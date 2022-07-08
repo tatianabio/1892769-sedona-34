@@ -561,7 +561,7 @@ body {
 }
 
 .newsletter-bg {
-  background-color: #82B3D3;
+  background-color: #333333;
   color: #FFFFFF;
   background-image: url("../images/background-subscribe.jpg");
   background-repeat: no-repeat;
@@ -1013,7 +1013,7 @@ body {
   padding: 35px 70px 60px;
   background-image: url("../images/background-filter.jpg");
   background-size: cover;
-  background-color: #82B3D3;
+  background-color: #333333;
   color: #FFFFFF;
   background-repeat: no-repeat;
 }
