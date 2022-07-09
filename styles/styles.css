@@ -372,6 +372,7 @@ body {
 .advantages img {
   display: block;
   object-fit: cover;
+  height: 100%;
 }
 
 .advantages-list {
@@ -391,6 +392,11 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.illustrated-advantage-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .illustrated-advantage-wrapper {
